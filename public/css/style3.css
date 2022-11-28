@@ -1,0 +1,185 @@
+.m ul{
+    list-style-type:none;
+    margin:0%;
+    padding:0;
+    overflow:hidden;
+    background: linear-gradient(to right, #002B5B, #2B4865 30%, #256D85);
+    
+
+}
+.m li{
+    display:block; float:right;
+}
+body {
+    background-image: url('../img/bg1.jpg');
+    background-attachment: fixed;
+}
+.m li a:hover{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+.kolom {
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.kolom .deskripsi {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: rgb(255, 255, 255);
+}
+
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    line-height: 30px;
+    text-align: justify;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 450px;
+    margin-right: 500px;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 800;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to right, #0cebeb, #fcff60, #29ffc6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-left: 20px;
+}
+
+.m li .logo{
+        font-size: 35px;
+        font-weight: 800;
+        text-align: left;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: white;
+        margin-left: 20px;
+    
+}
+
+.kolom .gambar {
+    margin: auto;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.prjt {
+    margin-top: 1px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.prjt .prt {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: rgb(255, 255, 255);
+}
+
+h6 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: rgb(255, 255, 255);
+}
+
+.prjt .gambar {
+    margin: auto;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 450px;
+    margin-right: 500px;
+}
+
+.footer{
+    position:fixed ;
+    bottom: 0;
+    color:rgb(255, 255, 255);
+    background-color: black;
+    width: 100%;
+    padding: 3px;
+    text-align:center;
+    margin-top: 30px;
+
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: rgb(255, 255, 255);
+}
+
+.Arduino {
+    width: 350px;
+    height: 300px;
+    margin-left: 35px;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.Arduino img{
+    width: 350px;
+    height: 300px;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.judul {
+    color: white;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+    display:inline-block;
+    padding:25px 25px; 
+    text-decoration:double;
+    color:rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:lighter;
+    font-size: 25px;
+    margin-right: 25px;
+}
+.m li h3:hover{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+.SERVO {
+    width: 350px;
+    height: 300px;
+    margin-left: 35px;
+}
+.SERVO img{
+    width: 350px;
+    height: 300px;
+}
